@@ -1,0 +1,46 @@
+#ab{
+	border: 2px solid black;
+	height: 80px;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	font-size: 65px;
+	background-color: #ff7a21;
+	border-radius: 90px 90px 0px 0px;
+}
+#abc{
+	border: 2px solid black;
+	height: 80px;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	font-size: 65px;
+	background-color: #ff7a21;
+	border-radius: 0px 0px 90px 90px;
+}
+#abc:hover{
+	transform: scale(1.2,1.2);
+	background-color: red;
+}
+body{
+	background-color: #ffd724;
+}
+.animals{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img{
+	border: 2px solid #91ff00;
+	transition: all 0.5s;
+}
+img:hover{
+	transform: scale(1.2, 1.2);
+	box-shadow: 10px 10px 5px skyblue;
+
+}
+h2{
+	border: 2px solid black;
+	margin-right: 1300px;
+	text-align: center;
+}
